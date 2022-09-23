@@ -4,7 +4,7 @@ import (
 	"github.com/google/uuid"
 )
 
-type person struct {
+type Person struct {
 	ID   uuid.UUID
 	Name string
 	Age  int

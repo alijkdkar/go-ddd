@@ -2,7 +2,7 @@ package entity
 
 import "github.com/google/uuid"
 
-type item struct {
+type Item struct {
 	ID          uuid.UUID
 	name        string
 	Description string
